@@ -1,0 +1,431 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+[class*="col-"]{
+  padding: 15px; float: left; width: 100%;
+}
+
+@media only screen and (min-width: 600px){
+  /* for tablets */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+/* for desktop */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  }
+
+body{
+  padding: 0;
+}
+
+  div.menu{
+    width: 100%;
+    background: #063982;
+    height: 70px;
+  }
+
+  div.menu ul{
+    list-style-type: none;/* menghilangkan bullet pada list */
+    overflow: hidden;/* menghilangkan scroll bar */
+    padding: 0;
+    margin: 0;
+  }
+
+  div.menu li{
+    float: right;/* posisi element dari kanan */
+    padding: 8px;
+  }
+
+  div.menu li a{
+    text-decoration: none; /* menghilangkan garis bawah pada link */
+    color: #fff;
+    text-align: center;
+    padding: 13px 15px;
+    font-size: 18px;
+    display: block;/* menampilkan element */
+  }
+
+  div.menu li a:hover{/* mouseover */
+    border-bottom: 2px solid black;
+  }
+  div.menu img{
+    width: 90px;
+    height: auto;
+    margin: 5px;
+    margin-left: 20px;
+  }
+  div.menu h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 10;
+    font-family: serif;
+    color: #fff;
+    margin-top: 0;
+  }
+  div.header{
+    width: 100%;
+    height: 550px;
+    background-image: url("ringin4.jpg");
+    background-repeat: no-repeat;/* agar gambar tidak berulang */
+    background-size: cover;
+    background-position: center;
+    float: left;
+  }
+
+  div.bayangan{
+    width: 100%;
+    height: 550px;
+    background: #000;
+    opacity: 0.6;
+    float: left;
+  }
+
+  div.header h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 240px;
+    left: 450px;
+    font-weight: 10px;
+    font-family: "Merienda One", Helvetica, sans-serif;
+    font-size: 50px;
+    border-bottom: 5px solid #1d3456;
+    padding-bottom: 20px;
+  }
+  div.header h2{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 340px;
+    left: 460px;
+    font-weight: 10px;
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+  }
+  div.about{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    float: left;
+    margin-top: 30px;
+  }
+  div.about .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  div.about .left h1{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 10;
+    border-right: 10px solid #02378c;
+    padding-right: 10px;
+  }
+  div.about .left p{
+    width: 80%;
+    float: right;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 20px;
+    color: grey;
+  }
+  div.about .right{
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+  div.about .right img{
+    width: 550px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+div.budaya{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: linear-gradient( #0c5fd6 200px, white 500px);
+  margin-top: 100px;
+}
+div.budaya .judul{
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Lobster', Georgia, Times, serif;
+  text-transform: uppercase;
+}
+div.budaya .left{
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-top: 25px;
+}
+div.budaya .left h3{
+  text-align: right;
+  margin-left: 20px;
+  color: black;
+  font-size: 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Allan', Helvetica, Arial, sans-serif;
+  font-weight: 20;
+}
+div.budaya .left p{
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+div.budaya .right{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.budaya .right img{
+  width: 300px;
+  height: auto;
+  border: 10px solid grey;
+  margin-top:40px;
+  margin-left: 90px;
+  border-radius: 50px;
+}
+div.budaya .left img{
+  width: 300px;
+  height: auto;
+  float: right;
+  border: 10px solid grey;
+  margin-top: 70px;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+div.budaya .right h3{
+  text-align: left;
+  margin-left: 90px;
+  color: black;
+  font-size: 30px;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-family: 'Allan', Helvetica, Arial, sans-serif;
+  font-weight: 20;
+}
+div.budaya .right p{
+  width: 50%;
+  float: left;
+  text-align: left;
+  margin-left: 90px;
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+div.makanan{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #324e77;
+  margin-top: 100px;
+}
+div.makanan .judul h1{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font font-family:  'Rancho', Georgia, serif;
+  text-transform: uppercase;
+}
+div.makanan .box{
+  display:inline-block;
+  height: 550px;
+  width: 315px;
+  float:left;
+  border: 5px solid #fff ;
+  margin: 10px;
+}
+div.makanan .box img{
+  width:100%;
+  height: 250px;
+}
+div.makanan .box:hover{
+  border: 3px solid #000;
+}
+div.makanan .box h2{
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+div.makanan .box p{
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+div.wisata{
+  width: 100%;
+  height: 550px;
+  background-image: url("alun.jpg");
+  background-repeat: no-repeat;/* agar gambar tidak berulang */
+  background-size: cover;
+  background-position: top;
+  float: left;
+}
+
+div.bayangan1{
+  width: 100%;
+  height: 550px;
+  background: #000;
+  opacity: 0.6;
+  float: left;
+}
+
+div.wisata h1{
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 3400px;
+  left: 350px;
+  font-weight: 10px;
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  font-size: 50px;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 20px;
+}
+div.tempat{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: linear-gradient(white 430px, #0149b2 80px);
+  margin-top: 60px;
+}
+div.tempat .left{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.tempat .left img{
+  width: 500px;
+  height: auto;
+  border: 20px solid #a50000;
+  margin-top:52px;
+  margin-left: 65px;
+  border-radius: 50px;
+}
+div.tempat .left h2{
+  position: relative;
+  color: #fff;
+  margin-left: 270px;
+  font-size: 20px;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+div.tempat .right{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.tempat .right img{
+  width: 550px;
+  height: auto;
+  border: 20px solid #a50000;
+  margin-top: 58px;
+  margin-left: 90px;
+  border-radius: 50px;
+}
+div.tempat .right h2{
+  position: relative;
+  color: #fff;
+  margin-left: 240px;
+  font-size: 20px;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+div.tempat2{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: linear-gradient(white 430px, #0149b2 80px);
+  margin-top: 60px;
+}
+div.tempat2 .left{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.tempat2 .left img{
+  width: 500px;
+  height: 350px;
+  border: 20px solid #a50000;
+  margin-top: 85px;
+  margin-left: 90px;
+  border-radius: 50px;
+}
+div.tempat2 .left h2{
+  position: relative;
+  color: #fff;
+  margin-left: 180px;
+  font-size: 20px;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+div.tempat2 .right{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.tempat2 .right img{
+  width: 550px;
+  height: auto;
+  border: 20px solid #a50000;
+  margin-top: 74px;
+  margin-left: 70px;
+  border-radius: 50px;
+}
+div.tempat2 .right h2{
+  position: relative;
+  color: #fff;
+  margin-left: 300px;
+  font-size: 20px;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+div.footer{
+  width: 100%;
+  height: auto;
+  background: #010b3d;
+}
+div.footer h5{
+  color: blacl;
+  font-family: sans-serif;
+  font-weight: 20;
+  padding-left: 50px;
+  float: left;
+}
+.text-red{ color: #ba0909; }
